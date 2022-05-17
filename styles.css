@@ -1,0 +1,297 @@
+* {
+    text-decoration: none;
+    border:none !important;
+    list-style-type: none;
+}
+body{
+    overflow-x:hidden !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.head {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.yellow{
+    background-color: #f5df4e;
+}
+.yellow-e{
+    background-color: #fcea74;
+}
+div.header {
+    width: 70%;
+    margin: auto;
+}
+
+div.menue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i#ham {
+    cursor: pointer;
+    z-index: 200;
+
+}
+
+h1#logo {
+    color: rgb(2, 8, 76);
+    text-transform: uppercase;
+}
+
+div.main-menue {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.main-menue a {
+    color: #ffffff;
+    font-size: 22px;
+    transition: 400ms;
+}
+
+div.main-menue a:hover {
+    color: yellow;
+}
+
+div.profit {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-30%);
+    transform: translateX(-50%);
+}
+p.big-t{
+    transition:1s;
+    font-size:66px;
+}
+.icons {
+    color: white;
+    transition: 400ms;
+    cursor: pointer;
+}
+button.close-btns{
+    background-color:red;
+}
+.icons i:hover {
+    color: yellow;
+}
+button#view{
+    padding:12px 41px ;
+    background-color:#212529;
+    color:#ffffff;
+    border:none;
+    transition:500ms;
+    outline:none;
+}
+button#view:hover{
+    opacity:0.7;
+}
+button#contact-Me{
+    padding:12px 41px;
+    outline:none;
+    background:none;
+    border:none;
+}
+img.image-me{
+    border:14px white solid;
+}
+
+
+.color-switcher{
+    position:absolute;
+    top:20%;
+    right:-6%;
+    transform:translateY(-20%);
+    transition:500ms;
+}
+i.setting{
+    cursor:pointer;
+    font-size:22px;
+}
+div.color-container div{
+    z-index:333;
+    width:30px;
+    height:30px;
+    margin:4px;
+    cursor:pointer;
+}
+
+div.spring-green{
+    background-color:#00fe9c !important;
+}
+div.lime-punch{
+    background-color:#d6ed17;
+}
+div.cyan{
+    background-color:#00ffff;
+}
+div.defult{
+    background-color: #f5df4e;
+    display:block !important;
+
+}
+/* interduceing */
+div.section{
+    padding:6.5rem 0;
+}
+h6#About{
+    background-color:#f5df4e;
+    width:7%;
+    padding:3px;
+}
+span#name{
+    border-bottom:4px solid #f5df4e;
+    padding-bottom:3px;
+}
+p#int-me{
+    font-size:21px;
+    line-height:1.8;
+}
+h1#exper{
+    font-size:120px;
+    background-color:#f5df4e;
+}
+
+div.section2{
+    padding:6.5rem;
+}
+h6#whatI{
+    background-color: #f5df4e;
+    width:10%;
+}
+div.pro-skill{
+    background-color:#f5df4e;
+}
+div.btn-show{
+    transition:900ms !important;
+}
+
+div.section3{
+    padding:6.5rem;
+}
+
+div.our-image{
+    height:0%;
+    top:0;
+    background-color:black;
+    opacity:0.6;
+    display:flex;
+    overflow:hidden;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    transition:500ms;
+}
+div.resume:hover div.our-image{
+    height:100%;
+    cursor:pointer;
+}
+
+div.bg-1{
+    background-image: url(image/intro-bg-2.jpg);
+    height:420px;
+    background-size:cover;
+    background-position:center;
+    padding:0;
+}
+div.overlay{
+    background-color:black;
+    height:100%;
+    width:100%;
+    opacity:0.6;
+}
+div.q{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:50%;
+    transform:translateX(-50%);
+}
+button#HireMe{
+    outline:none;
+    border:none;
+    background-color:#f5df4e;
+    padding:12px 24px;
+}
+div.FAQ{
+    height:50px;
+    border:1px solid red;
+    overflow: hidden;
+    transition:700ms;
+}
+div.slids{
+    padding:6.5rem;
+    background-color: #cdcdcd;
+}
+
+/* javaScript in use classes */
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.animation {
+    animation-name: opac;
+    animation-duration: 700ms;
+}
+.spring{
+    background-color:#00fe9c;
+}
+.showing{
+    display:block !important;
+}
+div#end{
+    background-color:#f5df4e;
+    padding:6.5rem;
+}
+input{
+    background:none;
+    border-bottom: 1px solid black !important;
+}
+input:focus{
+    border:none;
+    outline: none;
+}
+footer{
+    position: relative;
+    bottom:0;
+    padding:25px;
+    background-color:black;
+    color:white;
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+@keyframes opac {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 100%
+    }
+}
+.visible{
+    overflow:visible !important;
+}
+
